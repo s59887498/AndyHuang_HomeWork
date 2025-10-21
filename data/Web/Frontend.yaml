@@ -1,0 +1,43 @@
+Login:
+# --- 登入 ---
+  google_Button:
+    type: xpath
+    value: //div[@id='react-root']/div/div/div/div/div[4]/button[3]
+    time: 1
+    dealError: True
+
+Profile:
+# --- 我的 頁面 ---
+  My_Username_Text:
+    type: xpath
+    value: //*[@id="react-root"]/div/div/div/div[2]/div[1]/div[1]/div/div[2]/div/h2
+    time: 1
+    dealError: True
+
+Cart:
+# --- 商品 頁面 ---
+  Product1_Name:
+    type: xpath
+    value: //*[@id="react-root"]/div/div/div/div/div[1]/div/div[1]/div/div/div/div[2]/div[1]/div/a/div/h6
+    time: 1
+    dealError: True
+
+  Delete_Card_product1:
+    type: xpath
+    value: (.//*[normalize-space(text()) and normalize-space(.)='＋'])[1]/following::*[name()='svg'][1]
+    time: 1
+    dealError: True
+
+Product:
+# --- 商品 頁面 ---
+  Add_cart_button:
+    type: xpath
+    value: //div[@id='react-root']/div/div[5]/div[3]/div[2]/div/button
+    time: 1
+    dealError: True
+
+  hairball_relief_lickable_color_1:
+    type: xpath
+    value: //*[@id="react-root"]/div/div[5]/div[1]/div/div/div/button[1]/p
+    time: 1
+    dealError: True

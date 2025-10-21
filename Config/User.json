@@ -1,0 +1,11 @@
+{
+    "fusion_signin":{
+        "userName":"Automation_Test",
+        "password":"Ss000000+",
+        "terminal":"auto_test",
+        "channel":"",
+        "captcha":"test1",
+        "captchaType":1,
+        "fundPassword":"000000"
+    }
+}

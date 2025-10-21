@@ -1,0 +1,39 @@
+Backend:
+  # --- 後台登入頁面 ---
+
+  Backend_Switch_Language_2:
+    dealError: true
+    time: 1
+    type: xpath
+    value: //*[@id="2"]/div/div
+
+  Backend_Login_Account:
+    dealError: true
+    time: 1
+    type: id
+    value: validateOnly_nickname
+
+  Backend_Login_Button:
+    dealError: true
+    time: 1
+    type: css
+    value: .ant-btn
+
+  Backend_Login_Passwd:
+    dealError: true
+    time: 1
+    type: id
+    value: validateOnly_password
+
+ # --- 後台目錄區 ---
+  Backend_Logout_Button:
+    dealError: true
+    time: 1
+    type: css
+    value: .ant-dropdown-menu-title-content > p
+
+  Menu_header:
+    dealError: true
+    time: 1
+    type: xpath
+    value: //*[@id="root"]/div/div/div[2]/div/header/div/div/div[2]/ul/li
