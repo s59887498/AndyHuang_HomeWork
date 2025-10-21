@@ -1,4 +1,4 @@
-# Fusion
+# Automation README
 ## Directory Structure
 
 ---
