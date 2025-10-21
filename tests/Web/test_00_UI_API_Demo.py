@@ -28,7 +28,7 @@ class Test(Base):
 
     def test_login_and_add_cart(self, newDriver):
         """
-        確認NB登入頁文字是否正確，拿來當範例參考用
+        登入成功>從商品頁加入購物車
         """
 
         allure.attach.file(yaml_path, 'data', allure.attachment_type.YAML)
